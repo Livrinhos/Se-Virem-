@@ -1,4 +1,4 @@
-functiom filtroEntrada(nome, animal, vip){
+function filtroEntrada(nome, animal, vip){
 if (nome === ""){
   return "Erro 400, O nome não pode estar vazio!!";
 }
@@ -11,7 +11,7 @@ if (animal === "Gato" && vip === false){
   return "Sucesso 201"
 }
 
-console.log(filtoEntrada("",10,"Burro",true));
-console.log(filtoEntrada("Toto",42,"Cachorro",false));
-console.log(filtoEntrada("Cat",17,"Gato",true));
-console.log(filtoEntrada("Cat",17,"Gato",false));
+console.log(filtroEntrada("",10,"Burro",true));
+console.log(filtroEntrada("Toto",42,"Cachorro",false));
+console.log(filtroEntrada("Cat",17,"Gato",true));
+console.log(filtroEntrada("Cat",17,"Gato",false));
