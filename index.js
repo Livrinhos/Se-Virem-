@@ -1,4 +1,4 @@
-function filtroEntrada(nome, animal, vip){
+function filtroEntrada(nome, idade, animal, vip){
 if (nome === ""){
   return "Erro 400, O nome não pode estar vazio!!";
 }
