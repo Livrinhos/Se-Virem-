@@ -8,8 +8,10 @@ if (idade > 20 || idade < 0) {
 if (animal === "Gato" && vip === false){
   return "Erro 400, Seu Animal, não é um Gato!!";
 }
+  return "Sucesso 201"
+}
 
 console.log(filtoEntrada("",10,"Burro",true));
 console.log(filtoEntrada("Toto",42,"Cachorro",false));
 console.log(filtoEntrada("Cat",17,"Gato",true));
-  console.log(filtoEntrada("Cat",17,"Gato",false));
+console.log(filtoEntrada("Cat",17,"Gato",false));
